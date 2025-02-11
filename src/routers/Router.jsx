@@ -28,7 +28,7 @@ const Router = () => {
       element: <Main />,
     },
     {
-      path: '/rooms',
+      path: '/makereadwith/:isbn',
       element: <MakeReadwith />,
     },
     {
