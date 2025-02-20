@@ -343,7 +343,8 @@ export const Container = styled.div`
   .room-wrapper {
     position: relative;
     top: 47.06px;
-    left: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
   }
 
   .footer-place-holder {
