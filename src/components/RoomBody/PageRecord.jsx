@@ -98,6 +98,8 @@ export default function PageRecord({
                 }}
               />
               <div className="p">p</div>
+              <div className="sperate">/</div>
+              <div className="totalpage">{}p</div>
             </div>
 
             {/* 기록 내용 입력 */}
