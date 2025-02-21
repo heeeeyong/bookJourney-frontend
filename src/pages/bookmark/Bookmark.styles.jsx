@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: relative;
   width: 393px;
-  height: 852px;
+  height: 100vh;
   background-color: #f6f7f9;
   .arrow {
     position: absolute;
@@ -56,12 +56,15 @@ export const Container = styled.div`
   }
 
   .btn-container {
-    position: absolute;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 393px;
     height: 68px;
-    bottom: 0;
+    padding: 20px 0px;
   }
 
   .cancel-btn,
