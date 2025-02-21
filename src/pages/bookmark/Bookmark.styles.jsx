@@ -121,7 +121,7 @@ export const Container = styled.div`
   }
 
   .popup {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -220,7 +220,7 @@ export const Container = styled.div`
     top: 0;
     left: 0;
     width: 393px;
-    height: 852px;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.42);
     z-index: 100; /* 팝업 아래 배경보다 높은 z-index */
   }
